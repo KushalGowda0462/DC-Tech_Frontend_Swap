@@ -1,0 +1,156 @@
+{
+  "brand": {
+    "name": "Enseigner",
+    "product": "Sovereign AI",
+    "tagline": "Compliance-first GPU infrastructure and AI execution for regulated GCC enterprises",
+    "oneLiner": "Moving AI from pilot to production where governance matters",
+    "region": "UAE | Scope: Entire GCC",
+    "stage": "Pre-Seed",
+    "logoPath": "/enseigner-logo.png"
+  },
+  "seo": {
+    "title": "Enseigner — Sovereign AI for Regulated GCC Enterprises",
+    "description": "Compliance-first GPU infrastructure and AI execution for regulated GCC enterprises. Moving AI from pilot to production where governance matters.",
+    "ogImage": "/enseigner-logo.png"
+  },
+  "nav": {
+    "links": [
+      { "label": "About Us", "href": "/about", "type": "route" },
+      { "label": "Consulting", "href": "/services", "type": "dropdown", "items": "services" },
+      { "label": "Training", "href": "/services#traing-programs", "type": "dropdown", "items": "training" },
+      { "label": "Resources", "href": "/resources", "type": "dropdown", "items": "resources" }
+    ],
+    "cta": { "label": "Contact Us", "href": "/contact", "type": "route" }
+  },
+  "hero": {
+    "headline": "Sovereign AI for regulated GCC enterprises",
+    "subheadline": "Compliance-first GPU infrastructure and AI execution for production workloads — where data residency, auditability, and governance are non-negotiable.",
+    "primaryCta": { "label": "Request a Demo", "href": "/contact" },
+    "secondaryCta": { "label": "View Offerings", "href": "#offerings" },
+    "highlights": [
+      "Always-on AI workloads with predictable GPU costs",
+      "Auditable AI pipelines aligned to regulatory requirements",
+      "Faster transition from pilot to production environments"
+    ]
+  },
+  "market": {
+    "title": "The $50B AI Infrastructure Gold Rush",
+    "items": [
+      { "label": "Global GPUaaS", "value": "$4.3B (2024) → $49.8B (2032)", "note": "26.5% CAGR" },
+      { "label": "GCC Market", "value": "$150M (2025 est.) → $450M+ (2030)", "note": "22% CAGR" },
+      { "label": "UAE Alone", "value": "$35.7M (2024) → $125.4M (2030)", "note": "24.6% CAGR" },
+      { "label": "Regional Investment", "value": "$10B+", "note": "UAE AI Strategy 2031, Saudi Vision 2030" }
+    ]
+  },
+  "whyNow": {
+    "title": "Why Now?",
+    "points": [
+      "Dubai is emerging as a global AI/Fintech hub with increasing priority on data sovereignty."
+    ]
+  },
+  "problem": {
+    "title": "Problem Statement",
+    "points": [
+      "High CapEx for GPU clusters; security, compliance, and audit approvals stall deployments.",
+      "AI fails in production in regulated GCC enterprises for operational reasons — not model accuracy.",
+      "Hyperscalers (AWS/Azure UAE): volatile pricing + premiums + limited local/Arabic support.",
+      "No GCC-compliant sovereign cloud for sensitive data residency (UAE PDPL, Saudi NDMO).",
+      "85% of AI projects fail past pilots (Gartner/IDC) due to cost/compliance.",
+      "Fragmented providers: infrastructure, execution, and governance owned by different vendors."
+    ]
+  },
+  "gap": {
+    "title": "Gap",
+    "points": [
+      "Hyperscalers are optimized for elastic experimentation, not regulated production AI."
+    ]
+  },
+  "offerings": {
+    "id": "offerings",
+    "title": "Our Solution Offerings",
+    "subtitle": "Sovereign GPU infrastructure + execution layer built for regulated production AI.",
+    "cards": [
+      {
+        "title": "Sovereign GPU Infrastructure",
+        "desc": "Subscription-based GPU capacity designed for persistent enterprise workloads."
+      },
+      {
+        "title": "Compliance & Audit Readiness",
+        "desc": "Auditable pipelines aligned to regulatory requirements; governance-first execution."
+      },
+      {
+        "title": "Operational Ownership",
+        "desc": "Clear ownership across infrastructure + execution to reduce production friction."
+      }
+    ],
+    "note": "Local advantages justify a 10–20% cost premium through sovereignty and cultural optimization."
+  },
+  "advantage": {
+    "id": "advantage",
+    "title": "Our Advantage",
+    "subtitle": "Why existing options fall short — and why we win.",
+    "wins": [
+      "Always-on AI workloads with predictable GPU costs",
+      "Auditable AI pipelines aligned to regulatory requirements",
+      "Clear operational ownership for infrastructure and execution",
+      "Faster transition from pilot to production environments"
+    ]
+  },
+  "traction": {
+    "title": "Run-Rate Potential by End of Year-1",
+    "points": [
+      "Revenue scales with workload persistence, not customer volume.",
+      "Subscription-based sovereign GPU infrastructure."
+    ]
+  },
+  "investorTakeaways": {
+    "title": "Key Investor Takeaways",
+    "points": [
+      "Year-1 is intentionally investment-heavy: infrastructure and compliance laid upfront; ARR deliberately conservative.",
+      "Strong margin expansion by Year-3: infrastructure largely fixed; revenue driven by vertical solutions and enterprise contracts.",
+      "Operating leverage visible by Year-2: minimal incremental CAPEX while ARR scales through solution-led revenue.",
+      "Capital efficiency improves each year: ARR/OPEX crosses >1× in Year-2 and accelerates thereafter."
+    ]
+  },
+  "roadmap": {
+    "id": "roadmap",
+    "title": "Operational Roadmap",
+    "endState": "Production AI approved by security, compliance, and finance."
+  },
+  "funding": {
+    "id": "funding",
+    "title": "Funding Plan & Scale Optionality",
+    "headline": "Capital-efficient path to $5–6M ARR",
+    "details": [
+      "$5M Pre-Seed",
+      "16-GPU cluster + Year 1 & 2 ops",
+      "20–24 month runway to $5–6M ARR"
+    ]
+  },
+  "footer": {
+    "closing": "Let's Build GCC AI",
+    "copyright": "© 2025 Enseigner. All rights reserved.",
+    "links": [
+      { "label": "Company", "items": [
+        { "label": "About", "href": "/about" },
+        { "label": "Contact", "href": "/contact" }
+      ]},
+      { "label": "Services", "items": [
+        { "label": "Consulting", "href": "/services" },
+        { "label": "Training", "href": "/services#traing-programs" }
+      ]},
+      { "label": "Resources", "items": [
+        { "label": "Blog", "href": "/resources#blogs" },
+        { "label": "Case Studies", "href": "/resources#case-studies" },
+        { "label": "Success Stories", "href": "/resources#success-stories" }
+      ]}
+    ]
+  },
+  "contact": {
+    "id": "contact",
+    "title": "Request a Demo",
+    "subtitle": "Talk to us about sovereign GPU infrastructure and compliance-first AI execution.",
+    "fields": ["Name", "Work Email", "Company", "Message"]
+  }
+}
+

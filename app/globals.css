@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    /* Premium dark theme with vibrant blue */
+    --background: 222 47% 8%;
+    --foreground: 210 40% 96%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 96%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217 19% 16%;
+    --secondary-foreground: 210 40% 96%;
+    --muted: 217 19% 16%;
+    --muted-foreground: 215 20% 70%;
+    --accent: 217 19% 20%;
+    --accent-foreground: 210 40% 96%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 19% 20%;
+    --input: 217 19% 20%;
+    --ring: 221 83% 53%;
+    --chart-1: 221 83% 53%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.75rem;
+  }
+  
+  .dark {
+    --background: 222 47% 8%;
+    --foreground: 210 40% 96%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 96%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217 19% 16%;
+    --secondary-foreground: 210 40% 96%;
+    --muted: 217 19% 16%;
+    --muted-foreground: 215 20% 70%;
+    --accent: 217 19% 20%;
+    --accent-foreground: 210 40% 96%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 19% 20%;
+    --input: 217 19% 20%;
+    --ring: 221 83% 53%;
+    --chart-1: 221 83% 53%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .btn-primary-glow {
+    @apply bg-primary text-primary-foreground shadow-lg shadow-primary/50;
+    transition: all 0.3s ease;
+  }
+  .btn-primary-glow:hover {
+    @apply shadow-xl shadow-primary/60;
+    transform: translateY(-1px);
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10;
+  }
+}
