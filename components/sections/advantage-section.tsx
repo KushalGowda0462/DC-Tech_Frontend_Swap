@@ -7,7 +7,7 @@ export default function AdvantageSection() {
   const advantage = content.advantage;
 
   return (
-    <section id={advantage.id} className="relative overflow-hidden py-20 flex justify-center bg-muted/20">
+    <section id={advantage.id} className="relative overflow-hidden py-20 flex justify-center bg-muted/30">
       <div className="container relative mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl font-bold text-foreground">

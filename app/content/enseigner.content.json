@@ -23,6 +23,7 @@
     "cta": { "label": "Contact Us", "href": "/contact", "type": "route" }
   },
   "hero": {
+    "topLabel": "FUTURE-READY IT SERVICES",
     "headline": "Sovereign AI for regulated GCC enterprises",
     "subheadline": "Compliance-first GPU infrastructure and AI execution for production workloads — where data residency, auditability, and governance are non-negotiable.",
     "primaryCta": { "label": "Request a Demo", "href": "/contact" },
@@ -31,6 +32,23 @@
       "Always-on AI workloads with predictable GPU costs",
       "Auditable AI pipelines aligned to regulatory requirements",
       "Faster transition from pilot to production environments"
+    ],
+    "microHighlights": [
+      {
+        "title": "Future-Ready",
+        "subtitle": "Build AI ready infrastructure",
+        "icon": "Server"
+      },
+      {
+        "title": "Resilient",
+        "subtitle": "Reliable Cloud and Data Center Solutions",
+        "icon": "Cloud"
+      },
+      {
+        "title": "Robust",
+        "subtitle": "End to end Data Solutions",
+        "icon": "Zap"
+      }
     ]
   },
   "market": {
@@ -67,23 +85,33 @@
   },
   "offerings": {
     "id": "offerings",
-    "title": "Our Solution Offerings",
-    "subtitle": "Sovereign GPU infrastructure + execution layer built for regulated production AI.",
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for sovereign AI infrastructure and compliance-first execution.",
     "cards": [
       {
-        "title": "Sovereign GPU Infrastructure",
-        "desc": "Subscription-based GPU capacity designed for persistent enterprise workloads."
+        "title": "Data Analytics",
+        "desc": "Harness diverse data sources for actionable insights and confident business decisions with GCC-compliant data warehousing."
       },
       {
-        "title": "Compliance & Audit Readiness",
-        "desc": "Auditable pipelines aligned to regulatory requirements; governance-first execution."
+        "title": "AI Solutions",
+        "desc": "Infuse intelligence to solve complex problems and drive innovation with machine learning, built on sovereign GPU infrastructure."
       },
       {
-        "title": "Operational Ownership",
-        "desc": "Clear ownership across infrastructure + execution to reduce production friction."
+        "title": "Data Center",
+        "desc": "Deploy high-performance servers and GPU-accelerated clusters with Cisco AI PODs for intensive AI/ML workloads."
+      },
+      {
+        "title": "Cloud Migration",
+        "desc": "Modernize with cost-effective, secure, high-performance cloud solutions for on-demand scalability with full GCC data residency compliance."
       }
     ],
     "note": "Local advantages justify a 10–20% cost premium through sovereignty and cultural optimization."
+  },
+  "blogs": {
+    "title": "OUR BLOGS",
+    "subtitle": "Insights, updates, and industry knowledge sharing",
+    "viewAllLabel": "View All Blogs",
+    "viewAllHref": "/resources#blogs"
   },
   "advantage": {
     "id": "advantage",
@@ -150,7 +178,103 @@
     "id": "contact",
     "title": "Request a Demo",
     "subtitle": "Talk to us about sovereign GPU infrastructure and compliance-first AI execution.",
-    "fields": ["Name", "Work Email", "Company", "Message"]
+    "fields": ["Name", "Work Email", "Company", "Message"],
+    "email": "contact@enseigner.ai",
+    "whatsapp": "+971 XX XXX XXXX"
+  },
+  "finalCta": {
+    "headline": "Ready to Transform Your Business?",
+    "description": "Let's discuss how sovereign AI infrastructure can accelerate your digital transformation.",
+    "buttonLabel": "Get Started",
+    "buttonHref": "/contact"
+  },
+  "about": {
+    "companyOverview": {
+      "founded": "2024",
+      "headquarters": "UAE",
+      "region": "GCC (UAE, Saudi Arabia, Kuwait, Qatar, Bahrain, Oman)",
+      "certifications": "Microsoft Azure, GCP, NVIDIA, Cisco, NetApp, VMware, Fortinet",
+      "professionals": "15+ Certified Professionals"
+    },
+    "mission": "Powering Sovereign AI Transformation for Regulated GCC Enterprises",
+    "description": "Enseigner provides compliance-first GPU infrastructure and AI execution for regulated GCC enterprises. We specialize in moving AI from pilot to production where governance, data residency, and auditability are non-negotiable.",
+    "capabilities": [
+      {
+        "title": "Cloud",
+        "description": "Modernize with cost-effective, secure, high-performance cloud solutions for on-demand scalability with full GCC data residency compliance."
+      },
+      {
+        "title": "AI/ML",
+        "description": "Infuse intelligence to solve complex problems and drive innovation with machine learning, built on sovereign GPU infrastructure."
+      },
+      {
+        "title": "Managed Services",
+        "description": "Ensure always-on operations with expert management, reducing overhead and increasing uptime for production AI workloads."
+      },
+      {
+        "title": "Data & Analytics",
+        "description": "Harness diverse data sources for actionable insights and confident business decisions with GCC-compliant data warehousing."
+      },
+      {
+        "title": "Security & Compliance",
+        "description": "Elevate protection with zero-trust strategies, superior visibility, and full alignment with UAE PDPL, Saudi NDMO, and GCC regulations."
+      },
+      {
+        "title": "Training",
+        "description": "Empower teams with expert-led certification programs across cloud, data, AI platforms, and GPU computing with NVIDIA DLI."
+      }
+    ],
+    "dataCenterSolutions": {
+      "compute": "Deploy high-performance servers and GPU-accelerated clusters (NVIDIA DGX) with Cisco AI PODs for intensive AI/ML workloads.",
+      "networking": "Design robust networks and storage with Cisco Nexus/ACI, FlexPod with NetApp, and FlashStack with Pure Storage.",
+      "virtualization": "Implement VMware, Hyper-V, and container platforms (Kubernetes, Red Hat OpenShift) for agile resource utilization.",
+      "hybrid": "Bridge on-premises and cloud for workload portability and burst capacity with security and control.",
+      "automation": "Utilize IT automation and AIOps for self-optimizing infrastructure with proactive issue resolution."
+    },
+    "aiInfrastructure": {
+      "endToEnd": "Architect full-stack AI/ML platforms from data ingestion to model deployment, aligned for scalable operations with full auditability.",
+      "oemHardware": "Leverage NVIDIA DGX servers and integrated AI stacks for training complex models and real-time inference with GCC data residency.",
+      "cloudNative": "Utilize AWS Sagemaker, Azure ML, and Google Vertex AI for scalable training and automated ML pipelines with compliance-first execution.",
+      "applications": [
+        "Computer Vision: Image recognition and video analytics for surveillance and automation",
+        "Natural Language Processing: Chatbots, virtual assistants, and voice AI solutions",
+        "Generative AI: Content generation and predictive modeling for innovation"
+      ]
+    },
+    "dataEngineering": {
+      "warehousing": "Implement scalable warehouses consolidating enterprise data for high-performance analytics with GCC compliance.",
+      "pipelines": "Automate robust pipelines gathering, cleansing, and transforming data from diverse sources with full audit trails.",
+      "migration": "Safely migrate datasets to modern platforms, creating unified data lakes as single sources of truth.",
+      "dashboards": "Develop intuitive dashboards delivering real-time, actionable insights for all business levels."
+    },
+    "training": {
+      "description": "Expert-led training programs aligned with vendor certification paths, combining theory, hands-on labs, and real-world scenarios.",
+      "categories": [
+        {
+          "title": "Virtualization & Infrastructure",
+          "description": "VMware, Nutanix, Cisco solutions with VCP, CCNA/CCNP, NetApp certs."
+        },
+        {
+          "title": "Cloud Platforms",
+          "description": "AWS, Azure, GCP training for architect, DevOps, data engineer certifications."
+        },
+        {
+          "title": "AI & Emerging Tech",
+          "description": "Generative AI, AI agents, GPU computing with NVIDIA DLI and infra specializations."
+        }
+      ],
+      "benefits": [
+        "Certified by Major Vendors: Instructors hold certifications from Google, Microsoft, AWS, NVIDIA, Cisco, NetApp, VMware, and Nutanix",
+        "Real-World Experience: Trainers bring extensive practical experience from enterprise deployments",
+        "Hands-On Lab Environments: Dedicated lab environments for practical application and certification readiness"
+      ]
+    },
+    "compliance": {
+      "globalPrivacy": "We align your AI initiatives with GDPR, CCPA, UAE PDPL, Saudi NDMO, and evolving global regulations, including the EU AI Act.",
+      "aiGovernance": "Navigate emerging AI regulations. We implement AI governance frameworks, conduct algorithmic risk assessments, and enforce ethical AI principles.",
+      "securePipelines": "Compliance and security embedded from day one. We apply privacy-by-design, ensure data anonymization and consent, and enforce robust security controls.",
+      "riskReduction": "By proactively addressing compliance, we minimize legal and security risks while building customer trust."
+    }
   }
 }
 

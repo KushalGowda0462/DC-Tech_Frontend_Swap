@@ -21,9 +21,9 @@ export default function Testimonials() {
     }
 
     return (
-        <div className="py-12 md:py-24 lg:py-32 relative overflow-hidden bg-muted/20">
-            <div className="absolute inset-0 bg-gradient-to-b from-primary/10 to-background"></div>
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent"></div>
+        <div className="py-12 md:py-24 lg:py-32 relative overflow-hidden bg-muted/30">
+            <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-background"></div>
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent"></div>
             <div className="px-4 md:px-6 relative z-10 mx-auto flex flex-col items-center">
                 <div className="flex flex-col items-center space-y-4 text-center">
                     <div className="space-y-2">

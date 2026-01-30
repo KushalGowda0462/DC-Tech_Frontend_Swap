@@ -6,7 +6,7 @@ export function InfiniteCarousel() {
 
 
   return (
-    <div className="relative w-full overflow-hidden bg-muted/30 py-10">
+    <div className="relative w-full overflow-hidden bg-muted/40 py-10">
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
       <div className="animate-infinite-scroll flex w-fit">
         {duplicatedPartners.map((partner, idx) => (

@@ -3,32 +3,43 @@ import PartnersSection from "@/components/sections/partner-section"
 import KoKo from "@/components/faq"
 import Hero from "@/components/sections/hero-section"
 import ServicesSection from "@/components/sections/service-section"
-import CaseStudies from "@/components/sections/case-studies"
 import CustomerStories from "@/components/sections/customer-stories"
 import Testimonials from "@/components/sections/testimonials"
 import { CTASection } from "@/components/cta"
 import CustomerLogos from "@/components/sections/customers"
-import SolutionSection from "@/components/sections/solution-section"
-import AdvantageSection from "@/components/sections/advantage-section"
-import RoadmapSection from "@/components/sections/roadmap-section"
-import FundingSection from "@/components/sections/funding-section"
+import BlogsSection from "@/components/sections/blogs-section"
 
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-background pt-16">
+      {/* 1. Hero section */}
       <Hero />
+      
+      {/* 2. Partner/technology logos strip */}
       <InfiniteCarousel />
-      <SolutionSection />
+      
+      {/* 3. Our Services (4 cards) */}
       <ServicesSection />
-      <AdvantageSection />
+      
+      {/* 4. Partners section */}
       <PartnersSection />
+      
+      {/* 5. Trusted by Industry Leaders */}
       <CustomerLogos />
-      <RoadmapSection />
-      <FundingSection />
+      
+      {/* 6. Success Stories (3 story cards) */}
       <CustomerStories />
-      <CaseStudies />
+      
+      {/* 7. Our Blogs */}
+      <BlogsSection />
+      
+      {/* 8. Testimonials */}
       <Testimonials />
+      
+      {/* 9. FAQ */}
       <KoKo />
+      
+      {/* 10. Final CTA */}
       <CTASection />
     </div>
   )

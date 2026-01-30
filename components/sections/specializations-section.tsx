@@ -4,7 +4,7 @@ import { specializations } from '@/data/data'
 
 export default function SpecializationsSection() {
   return (
-    <section className="w-full bg-muted/20 py-24 flex justify-center">
+    <section className="w-full bg-muted/30 py-24 flex justify-center">
       <div className="container px-4 md:px-6">
         <div className="space-y-16">
           {/* Specializations Header */}

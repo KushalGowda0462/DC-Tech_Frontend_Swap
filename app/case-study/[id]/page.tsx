@@ -52,7 +52,7 @@ export default async function BlogPost({params}:{
             />
           </div>
 
-          <div className="bg-primary/10 p-8 rounded-lg border border-primary/20">
+          <div className="bg-primary/5 p-8 rounded-lg border border-primary/20">
             <p className="text-lg leading-relaxed text-foreground">
               {currBlog.content[currBlog.content.length - 2].para}
             </p>

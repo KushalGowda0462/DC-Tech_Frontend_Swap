@@ -6,7 +6,7 @@ const content = getContent();
 
 function Footer() {
   return (
-    <footer className="border-t border-border/40 py-12 bg-muted/30 flex justify-center mx-auto px-4">
+    <footer className="border-t border-border/40 py-12 bg-muted/40 flex justify-center mx-auto px-4">
       <div className="container">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="space-y-4">

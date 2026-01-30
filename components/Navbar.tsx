@@ -20,7 +20,7 @@ const content = getContent();
 
 function Navbar() {
   return (
-    <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-border/40 flex justify-center mx-auto px-4">
+    <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/90 border-b border-border/40 flex justify-center mx-auto px-4">
       <div className="container flex h-16 items-center justify-between">
         <Link href={"/"}>
           <Image 

@@ -62,6 +62,22 @@ export const caseStudies: Post[] = [
         "date": "2 Feb 2025",
         "image": "/studies/3.avif",
         "tags": ["CI/CD", "Heroku", "Azure DevOps"]
+    },
+    {
+        "title": "Enterprise-Grade AI/ML Platform Deployment",
+        "description": "Enable scalable, secure, and GPU-accelerated AI/ML development with end-to-end MLOps and Gen AI capabilities.",
+        "author": "Enseigner",
+        "date": "15 Feb 2025",
+        "image": "/studies/3.avif",
+        "tags": ["AI/ML", "Kubernetes", "NVIDIA GPU", "MLOps"]
+    },
+    {
+        "title": "Transforming Enterprise Communication with GenAI on Azure",
+        "description": "RAG-powered GenAI chatbot using Azure services delivering real-time, context-aware responses with enterprise-grade security.",
+        "author": "Enseigner",
+        "date": "20 Feb 2025",
+        "image": "/studies/3.avif",
+        "tags": ["GenAI", "Azure", "RAG", "Chatbot"]
     }
 ]
 
@@ -398,6 +414,36 @@ export const FullCaseStudies = [
             },
             {
                 src: "/studies/2.png",
+                alt: "DevOps implementation"
+            }
+        ]
+    },
+    {
+        badge: "AI/ML",
+        title: "Enterprise-Grade AI/ML Platform Deployment",
+        description: "Enable scalable, secure, and GPU-accelerated AI/ML development with end-to-end MLOps and Gen AI capabilities.",
+        Author: {
+            name: "Enseigner",
+            date: "15 Feb 2025"
+        },
+        content: [
+            {
+                para: "A leading GCC enterprise sought to enable scalable, secure, and GPU-accelerated AI/ML development with end-to-end MLOps and Gen AI capabilities. The client needed a production-ready infrastructure that could support complex model training, real-time inference, and seamless deployment workflows while maintaining strict compliance with GCC data residency requirements."
+            },
+            {
+                para: "Enseigner deployed a high-availability Rancher Kubernetes cluster on Cisco UCS, integrated Kubeflow + MLFlow + ArgoCD for robust MLOps pipeline, and configured RBAC with AD, private Harbor Registry, and secure namespaces. We deployed ELK Stack for real-time logging & monitoring, installed and validated NVIDIA GPU Operator for GPU-aware scheduling, and successfully deployed LLaMA 3.3 70B Gen AI model with Ollama API."
+            },
+            {
+                para: "The solution delivered seamless CI/CD with GitOps, 3x faster model deployment cycles, 100% GPU utilization with scalable AI pipelines, and comprehensive training & documentation delivered remotely. The client now has a production-ready, enterprise-scale AI infrastructure with best-in-class automation, observability, and performance—all while maintaining full GCC compliance and data residency."
+            }
+        ],
+        images: [
+            {
+                src: "/empty-inblog.png",
+                alt: "AI/ML Platform Deployment"
+            },
+            {
+                src: "/studies/2.png",
                 alt: "DevOps Transformation for Retail Manufacturer"
             }
         ]
@@ -432,6 +478,36 @@ export const FullCaseStudies = [
             {
                 src: "/studies/3.avif",
                 alt: "Automated Node.js Deployment Pipeline"
+            }
+        ]
+    },
+    {
+        badge: "AI/ML",
+        title: "Enterprise-Grade AI/ML Platform Deployment",
+        description: "Enable scalable, secure, and GPU-accelerated AI/ML development with end-to-end MLOps and Gen AI capabilities.",
+        Author: {
+            name: "Enseigner",
+            date: "15 Feb 2025"
+        },
+        content: [
+            {
+                para: "A leading GCC enterprise sought to enable scalable, secure, and GPU-accelerated AI/ML development with end-to-end MLOps and Gen AI capabilities. The client needed a production-ready infrastructure that could support complex model training, real-time inference, and seamless deployment workflows while maintaining strict compliance with GCC data residency requirements."
+            },
+            {
+                para: "Enseigner deployed a high-availability Rancher Kubernetes cluster on Cisco UCS, integrated Kubeflow + MLFlow + ArgoCD for robust MLOps pipeline, and configured RBAC with AD, private Harbor Registry, and secure namespaces. We deployed ELK Stack for real-time logging & monitoring, installed and validated NVIDIA GPU Operator for GPU-aware scheduling, and successfully deployed LLaMA 3.3 70B Gen AI model with Ollama API."
+            },
+            {
+                para: "The solution delivered seamless CI/CD with GitOps, 3x faster model deployment cycles, 100% GPU utilization with scalable AI pipelines, and comprehensive training & documentation delivered remotely. The client now has a production-ready, enterprise-scale AI infrastructure with best-in-class automation, observability, and performance—all while maintaining full GCC compliance and data residency."
+            }
+        ],
+        images: [
+            {
+                src: "/empty-inblog.png",
+                alt: "AI/ML Platform Deployment"
+            },
+            {
+                src: "/studies/3.avif",
+                alt: "Enterprise AI Infrastructure"
             }
         ]
     }

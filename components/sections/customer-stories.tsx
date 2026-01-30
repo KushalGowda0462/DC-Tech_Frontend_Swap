@@ -3,7 +3,7 @@ import { SuccessStories } from '@/data/data'
 
 export default function CustomerStories() {
   return (
-    <section className="py-16 bg-muted/20">
+    <section className="py-16 bg-muted/30">
       <div className="text-center space-y-4 mb-12">
             <div className="space-y-4 text-center">
               <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">

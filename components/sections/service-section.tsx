@@ -1,8 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { getContent } from "@/lib/content"
-import { Cloud, Shield, Settings } from "lucide-react"
+import { Cloud, Shield, Settings, Database, Brain, Server, ArrowRight } from "lucide-react"
 
 const iconMap = {
+  "Data Analytics": Database,
+  "AI Solutions": Brain,
+  "Data Center": Server,
+  "Cloud Migration": ArrowRight,
   "Sovereign GPU Infrastructure": Cloud,
   "Compliance & Audit Readiness": Shield,
   "Operational Ownership": Settings,
@@ -24,7 +28,7 @@ export default function ServicesSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {offerings.cards.map((card, index) => {
             const Icon = iconMap[card.title as keyof typeof iconMap] || Cloud;
             return (

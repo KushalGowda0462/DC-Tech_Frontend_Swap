@@ -45,20 +45,36 @@ export default function AboutUs() {
             />
             <div>
               <p className="text-lg text-muted-foreground mb-4">
-                Enseigner provides compliance-first GPU infrastructure and AI execution for regulated GCC enterprises. We enable moving AI from pilot to production where governance matters.
+                {content.about.description}
               </p>
-              <p className="text-lg text-muted-foreground">
-
-
-                Our purpose is to be the driving force behind digital transformation, delivering strategic guidance and unmatched expertise
+              <p className="text-lg text-muted-foreground mb-4">
+                Our mission is to power sovereign AI transformation for regulated GCC enterprises, delivering strategic guidance and unmatched expertise in compliance-first AI infrastructure.
               </p>
+              <div className="grid grid-cols-2 gap-4 mt-6">
+                <div>
+                  <p className="font-semibold text-foreground">Founded</p>
+                  <p className="text-muted-foreground">{content.about.companyOverview.founded}</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Headquarters</p>
+                  <p className="text-muted-foreground">{content.about.companyOverview.headquarters}</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Region</p>
+                  <p className="text-muted-foreground">{content.about.companyOverview.region}</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Team</p>
+                  <p className="text-muted-foreground">{content.about.companyOverview.professionals}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-muted/20">
+      <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -102,7 +118,7 @@ export default function AboutUs() {
       </section>
 
       {/* Approach Section */}
-      <section className="py-16 bg-muted/20">
+      <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>

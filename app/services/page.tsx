@@ -48,7 +48,7 @@ export default function Services() {
       </section>
 
       {/* Data and AI Section */}
-      <section className="py-20 bg-muted/20">
+      <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4 text-foreground">Our Solution Offerings</h2>
@@ -76,12 +76,39 @@ export default function Services() {
       <section className="py-20 bg-background" id="traing-programs">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4 text-foreground">Training Programs</h2>
+            <h2 className="text-3xl font-bold mb-4 text-foreground">Expert-Led Training Programs</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive training solutions to empower your team with the latest technology skills
+              {content.about?.training?.description || "Comprehensive training solutions to empower your team with the latest technology skills"}
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          
+          {content.about?.training?.categories && (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              {content.about.training.categories.map((category, index) => (
+                <Card key={index} className="p-6 bg-card border-border/40 card-hover">
+                  <h3 className="text-xl font-semibold mb-3 text-foreground">{category.title}</h3>
+                  <p className="text-muted-foreground">{category.description}</p>
+                </Card>
+              ))}
+            </div>
+          )}
+
+          {content.about?.training?.benefits && (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+              {content.about.training.benefits.map((benefit, index) => (
+                <Card key={index} className="p-6 bg-muted/20 border-border/40">
+                  <div className="flex items-start gap-4">
+                    <div className="rounded-full p-2 text-primary bg-primary/10 flex-shrink-0">
+                      <span className="text-lg font-bold">{index + 1}</span>
+                    </div>
+                    <p className="text-foreground leading-relaxed">{benefit}</p>
+                  </div>
+                </Card>
+              ))}
+            </div>
+          )}
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             {trainingCategories.map((category, index) => (
               <TrainingCategoryCard key={index} {...category} />
             ))}
