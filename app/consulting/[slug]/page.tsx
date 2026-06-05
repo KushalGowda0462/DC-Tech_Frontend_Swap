@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
-import { ArrowRight, CheckCircle2, ChevronRight, FileText, ShieldCheck } from "lucide-react";
+import { ArrowRight, CheckCircle2, FileText, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -16,13 +16,14 @@ import { consultingDetails, ConsultingSlug } from "../content";
 import { CTASection } from "@/components/cta";
 
 interface PageProps {
-    params: {
+    params: Promise<{
         slug: string;
-    };
+    }>;
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-    const detail = consultingDetails[params.slug as ConsultingSlug];
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+    const { slug } = await params;
+    const detail = consultingDetails[slug as ConsultingSlug];
     if (!detail) return { title: "Consulting Not Found" };
 
     return {
@@ -37,8 +38,9 @@ export function generateStaticParams() {
     }));
 }
 
-export default function ConsultingDetailPage({ params }: PageProps) {
-    const slug = params.slug as ConsultingSlug;
+export default async function ConsultingDetailPage({ params }: PageProps) {
+    const { slug: paramSlug } = await params;
+    const slug = paramSlug as ConsultingSlug;
     const content = consultingDetails[slug];
 
     if (!content) {

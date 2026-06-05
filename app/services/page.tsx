@@ -1,8 +1,5 @@
 import { Card } from "@/components/ui/card";
 import {
-  Database,
-  Brain,
-  LineChart,
   Settings,
 } from "lucide-react";
 import { TrainingCategoryCard } from "@/components/training-catogoryCard";

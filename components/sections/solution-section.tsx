@@ -1,12 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { getContent } from "@/lib/content"
-import { AlertCircle, TrendingDown, Shield, Cloud } from "lucide-react"
-
-const iconMap = {
-  "problem": AlertCircle,
-  "gap": TrendingDown,
-  "whyNow": Cloud,
-};
+import { AlertCircle, TrendingDown, Cloud } from "lucide-react"
 
 export default function SolutionSection() {
   const content = getContent();
