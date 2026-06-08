@@ -2,10 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "@/app/styles/animations.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import enseignerContent from "@/app/content/enseigner.content.json";
-import { ThemeProvider } from "@/components/theme-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,6 +18,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.enseigner.in"),
   title: enseignerContent.seo.title,
   description: enseignerContent.seo.description,
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
   openGraph: {
     title: enseignerContent.seo.title,
     description: enseignerContent.seo.description,
@@ -38,16 +39,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Navbar />
-          {children}
-          <Footer />
-        </ThemeProvider>
+        {children}
       </body>
     </html>
   );
